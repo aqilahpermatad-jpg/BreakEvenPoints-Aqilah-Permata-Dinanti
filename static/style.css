@@ -1,0 +1,122 @@
+/* Import Font: Playfair Display (Serif Mewah) & Lato (Sans-Serif Elegan) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #1a120b; /* Coklat Gelap Espresso */
+    color: #e5e5e5;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 550px;
+    margin: auto;
+    background: #3c2a21; /* Coklat Tua Medium */
+    padding: 40px;
+    border-radius: 4px; /* Sudut tajam sedikit melengkung lebih elegan */
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    border: 1px solid #d4a373; /* Aksen Gold Muda */
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #d4a373; /* Warna Emas/Tan */
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #bc8e5e;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    background: #1a120b;
+    border: 1px solid #54372b;
+    border-radius: 0;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #d4a373;
+    background: #251b14;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: #d4a373; /* Tombol Emas */
+    color: #1a120b;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #bc8e5e;
+    letter-spacing: 3px;
+}
+
+/* Tampilan Hasil (Res Card) */
+.res-card {
+    margin-top: 35px;
+    padding: 25px;
+    background: #251b14;
+    border: 1px double #d4a373;
+    text-align: center;
+}
+
+.res-card h3 {
+    font-family: 'Playfair Display', serif;
+    color: #d4a373;
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+/* Watermark Elegan */
+.watermark {
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    opacity: 0.1;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.watermark h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    color: #d4a373;
+    margin: 0;
+}
+
+.footer-credit {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #54372b;
+    text-transform: uppercase;
+}
