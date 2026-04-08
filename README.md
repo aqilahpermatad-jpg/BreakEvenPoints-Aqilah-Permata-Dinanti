@@ -16,21 +16,21 @@ Aplikasi web untuk menghitung Break-Even Point (BEP) - titik impas dalam bisnis.
 
 ## Instalasi
 
-1. Clone repository ini
-2. Buat virtual environment:
+
+1. Buat virtual environment:
    ```bash
    python -m venv envku
    ```
 
-3. Aktifkan virtual environment:
+2. Aktifkan virtual environment:
    - Windows:
    ```bash
    envku\Scripts\activate
    ```
 
-4. Install dependencies:
+3. Install dependencies:
    ```bash
-   pip install flask django
+   pip install flask
    ```
 
 ## Cara Menggunakan
@@ -40,7 +40,7 @@ Aplikasi web untuk menghitung Break-Even Point (BEP) - titik impas dalam bisnis.
    python app.py
    ```
 
-2. Buka browser dan akses `http://localhost:5000`
+2. Buka browser dan akses `http://127.0.0.1:5000/`
 
 3. Input:
    - **Biaya Tetap (Fixed Cost)**: Biaya yang tidak berubah (sewa, gaji tetap, dll)
